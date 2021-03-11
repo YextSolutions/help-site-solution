@@ -1,9 +1,10 @@
 {
-  "$id": "unripe-replace-trousers-34659",
+  "$id": "Answers-Help-Site",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
   "siteName": "Answers - Help Site",
   "repoConfig": {
-    "targetRepoName": "${{answersHelpSite_targetRepo}}"
+    "targetRepoName": "help-site-template-answers-site-${{businessId}}.com",
+    "templateRepo": "github.com/yext-pages/answers-template-help-site"
   },
   "publishingConfig": {
     "pinnedStagingBranchName": "refs/heads/master",
