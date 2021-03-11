@@ -1,0 +1,21 @@
+{
+  "$id": "347436448",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Answers - Help Articles",
+  "filter": {
+    "entityField": [
+      {
+        "fieldId": "c_draft",
+        "searchBool": "FALSE"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/helpArticle"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

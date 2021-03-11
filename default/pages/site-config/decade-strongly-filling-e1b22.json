@@ -1,0 +1,11 @@
+{
+  "$id": "decade-strongly-filling-e1b22",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Help Article Template",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "gradually-playhouse-cringe-1a166"
+    }
+  ]
+}

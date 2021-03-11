@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers-help-site",
+  "name": "Answers Help Site",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "help_articles": {
+      "entityTypes": [
+        "helpArticle"
+      ],
+      "name": "Help Articles",
+      "savedSearchId": "347436448",
+      "searchableFields": {
+        "body": {},
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_helpArticleCategory": {
+          "facet": true
+        },
+        "c_updatedDate": {
+          "sortable": true
+        },
+        "name": {
+          "phraseMatch": true,
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "links": {
+      "apiKey": "REPLACE_API_KEY",
+      "cx": "REPLACE_CX_KEY",
+      "name": "Links",
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "What is Yext?",
+      "Help Articles",
+      "How-to Guides"
+    ]
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": []
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": []
+}
