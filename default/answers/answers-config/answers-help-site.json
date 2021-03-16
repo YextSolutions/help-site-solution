@@ -39,13 +39,14 @@
       "useSynonyms": "ALL_SYNONYMS"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
-      "What is Yext?",
-      "Help Articles",
-      "How-to Guides"
-    ]
+  "querySuggestions": {
+    "verticalPrompts": {
+      "help_articles": [
+        "Help Articles",
+        "How-to Guides",
+        "[[name]]"
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [],
