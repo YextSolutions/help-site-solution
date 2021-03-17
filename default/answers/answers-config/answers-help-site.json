@@ -6,13 +6,20 @@
   "countryRestrictions": [],
   "verticals": {
     "help_articles": {
+      "directAnswers": {
+        "featuredSnippets": {
+          "predictionMode": "ALLOW_ALL"
+        }
+      },
       "entityTypes": [
         "helpArticle"
       ],
       "name": "Help Articles",
       "savedSearchId": "347436448",
       "searchableFields": {
-        "body": {},
+        "body": {
+          "documentSearch": true
+        },
         "builtin.entityType": {
           "nlpFilter": true
         },
@@ -39,19 +46,19 @@
       "useSynonyms": "ALL_SYNONYMS"
     }
   },
-  "querySuggestions": {
-    "verticalPrompts": {
-      "help_articles": [
-        "Help Articles",
-        "How-to Guides",
-        "[[name]]"
-      ]
-    }
-  }, 
   "synonyms": {
     "oneWay": [],
     "synonymSet": []
   },
   "localizations": {},
-  "additionalSearchablePlaces": []
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "What is Analytics Dashboard",
+      "Help Articles",
+      "How-to Guides"
+    ],
+    "verticalPrompts": {}
+  }
 }
