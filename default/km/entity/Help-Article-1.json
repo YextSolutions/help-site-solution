@@ -4,7 +4,7 @@
   "primaryLocale": "en",
   "content": {
     "c_createdDate": "2021-02-01",
-    "c_draft": false,
+    "c_activeInAnswers": "YES",
     "c_helpArticleCategory": [
       "Product Overview"
     ],

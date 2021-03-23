@@ -9,7 +9,7 @@
       "required": false
     },
     {
-      "id": "c_draft",
+      "id": "c_activeInAnswers",
       "required": false
     },
     {
