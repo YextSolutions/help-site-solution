@@ -48,7 +48,12 @@
   },
   "synonyms": {
     "oneWay": [],
-    "synonymSet": []
+    "synonymSet": [
+      [
+        "guides",
+        "help articles"
+      ]
+    ]
   },
   "localizations": {},
   "additionalSearchablePlaces": [],
