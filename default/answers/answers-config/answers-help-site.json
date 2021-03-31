@@ -26,7 +26,7 @@
         "c_helpArticleCategory": {
           "facet": true
         },
-        "c_updatedDate": {
+        "externalArticleUpdateDate": {
           "sortable": true
         },
         "name": {
