@@ -23,12 +23,6 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "c_helpArticleCategory": {
-          "facet": true
-        },
-        "externalArticleUpdateDate": {
-          "sortable": true
-        },
         "name": {
           "phraseMatch": true,
           "textSearch": true
