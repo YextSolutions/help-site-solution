@@ -24,22 +24,12 @@
           "nlpFilter": true
         },
         "name": {
-          "phraseMatch": true,
-          "textSearch": true
+          "semanticTextSearch": true
         }
       },
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
-    },
-    "links": {
-      "apiKey": "REPLACE_API_KEY",
-      "cx": "REPLACE_CX_KEY",
-      "name": "Links",
-      "siteRestricted": false,
-      "source": "GOOGLE_CSE",
-      "useSynonyms": "ALL_SYNONYMS"
     }
-  },
   "synonyms": {
     "oneWay": [],
     "synonymSet": [
