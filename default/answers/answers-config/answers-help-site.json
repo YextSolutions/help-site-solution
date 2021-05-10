@@ -30,9 +30,14 @@
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     }
+  },
   "synonyms": {
     "oneWay": [],
     "synonymSet": [
+      [
+        "help",
+        "support"
+      ],
       [
         "guides",
         "help articles"
@@ -42,12 +47,17 @@
   "localizations": {},
   "additionalSearchablePlaces": [],
   "querySuggestions": {
+    "disablePopularQueries": false,
     "popularQueriesBlacklistedTerms": [],
     "universalPrompts": [
       "What is the Analytics Dashboard",
       "Help Articles",
       "How-to Guides"
     ],
-    "verticalPrompts": {}
+    "verticalPrompts": {
+      "help_articles": [
+        "[[name]]"
+      ]
+    }
   }
 }
