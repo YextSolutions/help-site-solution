@@ -50,7 +50,6 @@
     "disablePopularQueries": false,
     "popularQueriesBlacklistedTerms": [],
     "universalPrompts": [
-      "What is the Analytics Dashboard",
       "Help Articles",
       "How-to Guides"
     ],
