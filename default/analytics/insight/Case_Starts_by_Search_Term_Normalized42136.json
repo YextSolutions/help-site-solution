@@ -1,0 +1,35 @@
+{
+  "$id": "c_Case_Starts_by_Search_Term_Normalized42136",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Case Starts by Search Term (Normalized)",
+  "description": "Case Starts by Search Term (Normalized)",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_CASE_STARTS"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_SEARCH_TERM"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      },
+      {
+        "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
+        "in": [
+          "PRODUCTION"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "table": {}
+  }
+}

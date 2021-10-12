@@ -1,0 +1,33 @@
+{
+  "$id": "c_Case_Deflection_Rate_by_Answers_Experience42253",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Case Deflection Rate by Answers Experience",
+  "description": "Case Deflection Rate by Answers Experience",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_CASE_DEFLECTION_RATE"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_EXPERIENCE"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "between": [
+          "2021-07-27",
+          "2021-07-30"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "dimension": "yext/ANSWERS_EXPERIENCE"
+        },
+        "descending": true
+      }
+    }
+  }
+}

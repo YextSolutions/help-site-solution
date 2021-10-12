@@ -1,0 +1,26 @@
+{
+  "$id": "c_Case_Starts_Case_Submits_Case_Deflections_and_Case_Deflec41951",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Case Starts, Case Submits, Case Deflections, and Case Deflection Rate by Day",
+  "description": "Case Starts, Case Submits, Case Deflections, and Case Deflection Rate by Day",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_CASE_STARTS",
+      "yext/ANSWERS_CASE_SUBMITS",
+      "yext/ANSWERS_CASE_DEFLECTIONS",
+      "yext/ANSWERS_CASE_DEFLECTION_RATE"
+    ],
+    "dimensions": [
+      "yext/DAYS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      }
+    ]
+  },
+  "display": {
+    "table": {}
+  }
+}
