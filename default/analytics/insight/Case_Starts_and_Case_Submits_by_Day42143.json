@@ -12,12 +12,7 @@
       "yext/DAYS"
     ],
     "filters": [
-      {
-        "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
-        "in": [
-          "PRODUCTION"
-        ]
-      },
+
       {
         "filter": "yext/ANSWERS_TRAFFIC_TYPE",
         "in": [
