@@ -1,11 +1,12 @@
 {
   "$id": "c_Search_Terms_That_Led_To_Case_Submission",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-  "name": "Search Terms That Led to Case Submission",
-  "description": "Last Search Term run before ticket was submitted.",
+  "name": "Submitted Search Terms",
+  "description": "Search Terms that were Submitted Despite Support Search.",
   "query": {
     "metrics": [
-      "yext/ANSWERS_CASE_SUBMITS"
+      "yext/ANSWERS_CASE_SUBMITS",
+      "yext/ANSWERS_CASE_DEFLECTION_RATE"
     ],
     "dimensions": [
       "yext/ANSWERS_SEARCH_TERM"

@@ -5,7 +5,8 @@
   "description": "Search Terms that were deflected by Support Search.",
   "query": {
     "metrics": [
-      "yext/ANSWERS_CASE_DEFLECTIONS"
+      "yext/ANSWERS_CASE_DEFLECTIONS",
+      "yext/ANSWERS_CASE_DEFLECTION_RATE"
     ],
     "dimensions": [
       "yext/ANSWERS_SEARCH_TERM"
