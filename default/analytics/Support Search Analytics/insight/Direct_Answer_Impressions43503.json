@@ -1,0 +1,37 @@
+{
+  "$id": "c_Direct_Answer_Impressions43503",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Direct Answer Impressions",
+  "description": "Answers Searches by Direct Answer Type",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_SEARCHES"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_DIRECT_TYPE"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_30"
+      },
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
+        "in": [
+          "PRODUCTION"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "SUM"
+    }
+  }
+}
