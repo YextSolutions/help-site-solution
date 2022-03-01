@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "primaryEntityType": "helpArticle",
+  "entityTypeSettings": [
+    {
+      "entityType": "faq",
+      "disabled": false
+    },
+    {
+      "entityType": "helpArticle",
+      "disabled": false
+    }
+  ]
+} 
